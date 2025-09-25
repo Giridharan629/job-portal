@@ -57,47 +57,18 @@ const JobCard = ({ job }) => {
 
       <div className="job-details">
         <div className="detail-item">
-          <svg
-            className="detail-icon"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-          >
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-            <circle cx="12" cy="7" r="4"></circle>
-          </svg>
+          
+          <img src="assets/images/exeperience.png" alt="" />
           <span>{job.experience}</span>
         </div>
 
         <div className="detail-item">
-          <svg
-            className="detail-icon"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-          >
-            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-            <polyline points="9,22 9,12 15,12 15,22"></polyline>
-          </svg>
+          <img src="assets/images/onsite.png" alt="" />
           <span>{job.location}</span>
         </div>
 
         <div className="detail-item">
-          <svg
-            className="detail-icon"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-          >
-            <line x1="12" y1="1" x2="12" y2="23"></line>
-            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-          </svg>
+          <img src="assets/images/salary.png" alt="" />
           <span>{job.salary}</span>
         </div>
       </div>
