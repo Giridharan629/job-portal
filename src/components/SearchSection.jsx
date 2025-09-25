@@ -38,7 +38,7 @@ const SearchSection = ({ setLocationFilter }) => {
         {/* <div className="search-form"> */}
         <div className="search-field">
           <div className="search-input-container">
-            <img src="public\assets\images\search.png" alt="" />
+            <img src="assets/images/search.png" alt="" />
             <input
               type="text"
               placeholder="Search By Job Title, Role"
@@ -49,7 +49,7 @@ const SearchSection = ({ setLocationFilter }) => {
 
         <div className="location-field">
           <div className="location-input-container">
-            <img src="public\assets\images\location.png" alt="" />
+            <img src="assets/images/location.png" alt="" />
             <select onChange={handleLocationChange} className="location-select">
               <option>Preferred Location</option>
               <option>Mumbai</option>
@@ -72,7 +72,7 @@ const SearchSection = ({ setLocationFilter }) => {
 
         <div className="job-type-field">
           <div className="job-type-container">
-            <img src="public\assets\images\jobtype.png" alt="" />
+            <img src="assets/images/jobtype.png" alt="" />
 
             <select className="job-type-select">
               <option>Job type</option>
