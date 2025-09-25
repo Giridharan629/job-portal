@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+                                                
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fcff;
+  /* max-width: 1400px; */
+  margin: auto;
+}
+
+.App {
+  min-height: 100dvh;
+}

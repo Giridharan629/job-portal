@@ -1,0 +1,134 @@
+/* =========================
+   Header / Navbar
+========================= */
+.header {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.header .container {
+  margin: auto;
+  max-width: fit-content;
+  height: 80px;
+  padding: 1rem;
+  opacity: 1;
+  top: 21px;
+  left: 275px;
+  border-radius: 122px;
+  border: 1px solid #eee;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px #2c2c2c1b;
+  box-sizing: border-box;
+}
+
+/* =========================
+   Logo
+========================= */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 44px;
+  height: 44.6769218444824244px;
+  opacity: 1;
+  top: 1.66px;
+}
+
+/* =========================
+   Navigation links
+========================= */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.nav div {
+  position: relative;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav div a {
+  display: block;
+  padding: .7rem 1rem;
+  /* height: 48px; */
+  /* line-height: 48px; */
+  border-radius: 12px;
+  text-decoration: none;
+  color: #303030;
+  font-weight: 600;
+  font-size: 16px;
+  transition: top 0.3s, left 0.3s, box-shadow 0.3s, color 0.3s;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.nav div:hover a {
+  top: 3px;
+  left: 3px;
+  box-shadow: 0px 2px 3px 0px #00000020;
+}
+
+/* =========================
+   Create Jobs Button
+========================= */
+.create-jobs-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #a128ff 0%, #6100ad 113.79%);
+  color: white;
+  border: none;
+  width: 123px;
+  height: 38px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.create-jobs-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 0 5px #f5f5f5;
+}
+
+/* Button text animation */
+.create-jobs-btn span {
+  display: block;
+  transition: transform 0.1s, opacity 0.1s ease, top 0.1s;
+}
+.create-jobs-btn span:first-child {
+  transform: translateY(0);
+  opacity: 1;
+}
+.create-jobs-btn span:last-child {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+}
+.create-jobs-btn:hover span:first-child {
+  transform: translateY(-150%);
+  opacity: 0;
+}
+.create-jobs-btn:hover span:last-child {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
